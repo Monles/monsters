@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>Yen</p>
+          <p>{this.state.name}</p>
           <button>Change name</button>
         </header>
       </div>
